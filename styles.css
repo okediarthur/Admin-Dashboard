@@ -14,12 +14,12 @@ html, body {
     background-color: #edfeff;
     grid-template-columns: 1fr 4fr;
     height: 100vh;
-    background-color: #bae6fd;
+    background-color: #a5f3fc;
 }
 
 .side-bar{
     display: grid;
-    background-color: #0369a1;
+    background-color: #0e7490;
     grid-row: 1 / 6;
 }
 
@@ -27,7 +27,82 @@ html, body {
 .header-section{
     display: grid;
     grid-column: 2 / 3;
-    background-color: #d3ffce;
+    background-color: #06b6d4;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+}
+
+#search{
+    flex-grow: 1;
+    flex-basis: 40%;
+    margin: 0 5px;
+    border-radius: 15px;
+}
+
+#logo{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#user-name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 80px;
+}
+
+.search-icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 25px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+#Logo-1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.button-case{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 42em;
+}
+
+.btn{
+    margin-left: 15px;
+    margin-right: 20px;
+    background-color: #0e7490;
+    padding: 16px 25px;
+    /* margin: 10px; */
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 25px;
+    color: #fff;
 }
 
 .main-content{
@@ -82,6 +157,11 @@ html, body {
     border-radius: 20px;
 }
 
+.bottom-line{
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+
 .trends {
     display: grid;
     background-color: #fff;
@@ -100,7 +180,7 @@ html, body {
 
 .your-projects .card{
     height: 200px;
-    background-color: #a0db8e;
+    background-color: #0e7490;
     border-radius: 15px;
     margin: 5px;
     padding: 20px;
