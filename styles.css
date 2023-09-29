@@ -1,20 +1,28 @@
 * {
     padding: 0;
-    /* margin: 0; */
-    /* background-color: #edfeff; */
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
 }
 
 .content{
     display: grid;
     background-color: #edfeff;
     grid-template-columns: 1fr 4fr;
+    height: 100vh;
+    background-color: #bae6fd;
 }
 
 .side-bar{
     display: grid;
-    background-color: #a0db8e;
+    background-color: #0369a1;
     grid-row: 1 / 6;
 }
+
 
 .header-section{
     display: grid;
@@ -25,6 +33,35 @@
 .main-content{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    grid-row: 2 / 6 ;
+}
+
+.dash-section{
+    font-size: 40px;
+    margin-right: 10px;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.dash{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.menu-icon{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.menu-text{
+    font-size: 20px;
+    margin-right: 15px;
+    color: #fff;
 }
 
 .your-projects{
@@ -55,9 +92,20 @@
 
 .cards{
     display: grid;
-    grid-row: 1fr 3fr;
+    /* grid-row: 1fr 3fr; */
+    grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+    gap: 15px;
+    /* margin-bottom: 15px; */
 }
 
 .your-projects .card{
-    /* height: 200px; */
+    height: 200px;
+    background-color: #a0db8e;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 20px;
+}
+
+h2{
+    margin-bottom: 2%;
 }
