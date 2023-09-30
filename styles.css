@@ -149,12 +149,21 @@ html, body {
     border-radius: 20px;
 }
 
+.your-projects h2{
+    margin-bottom: 10px;
+}
+
 .announcements {
     display: grid;
     background-color: #fff;
     margin: 15px;
     padding: 15px;
     border-radius: 20px;
+}
+
+.announcements h4{
+    /* margin-bottom: 10px; */
+    margin-top: 10px;
 }
 
 .bottom-line{
@@ -168,6 +177,30 @@ html, body {
     margin: 15px;
     padding: 15px;
     border-radius: 20px;
+}
+
+.card-3{
+    display: grid;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+}
+
+.trend-item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#profile-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.handle{
+    font-weight: bold;
+    font-size: 18px;
+
 }
 
 .cards{
@@ -184,6 +217,26 @@ html, body {
     border-radius: 15px;
     margin: 5px;
     padding: 20px;
+}
+
+.icons{
+    position: absolute;
+    /* bottom: 0; */
+    /* left: 0; */
+    display: flex;
+    gap: 10px;
+    color: #fff;
+    margin-top: 25px;
+    margin-left: 170px;
+}
+
+.card-content{
+    color: #fff;
+}
+
+h3{
+    color: #fff;
+    margin-bottom: 10px;
 }
 
 h2{
