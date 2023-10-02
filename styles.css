@@ -7,6 +7,7 @@
 html, body {
     height: 100%;
     margin: 0;
+    background-color: #a5f3fc;
 }
 
 .content{
@@ -39,33 +40,33 @@ html, body {
 }
 
 #search{
-    /* flex-grow: 1; */
-    flex-basis: 80%;
+    flex-grow: 1;
+    /* flex-basis: 80%; */
     margin: 0 5px;
     border-radius: 15px;
     height: 3vh;
 }
 
 #logo{
-    width: 48px;
-    height: 48px;
+    width: 3%;
+    height: auto;
     border-radius: 50%;
-    margin-right: 4vw;
+    margin-right: 2vw;
     /* margin-left: 50vh; */
 }
 
 #user-name{
     font-size: 2.5vh;
     font-weight: bold;
-    margin-left: auto;
-    /* margin-right: 1vh; */
+    /* margin-left: 1vh; */
+    margin-right: 3vh;
     display: inline;
 }
 
 .search-icon{
     width: 20px;
     height: 20px;
-    margin-left: 25px;
+    margin-left: 2%;
     height: 1.5vh;
     margin-right: 2vh;
 }
@@ -79,10 +80,46 @@ html, body {
 }
 
 #Logo-1{
-    width: 80px;
-    height: 80px;
+    width: 5%;
+    height: auto;
     border-radius: 50%;
-    margin-left: 25px;
+    margin-left: 2%;
+}
+
+/* Media query for a responsive design */
+
+@media (max-width: 768px) {
+    .content {
+        grid-template-columns: 1fr;
+    }
+
+    .side-bar{
+        grid-row: auto;
+    }
+
+    #logo, #Logo-1{
+        width: 20%;
+    }
+
+    .search-bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #search{
+        flex-basis: 100%;
+        margin-top: 1vh;
+    }
+
+    .button-case {
+        margin-left: 0;
+        margin-top: 1vh;
+        justify-content: center;
+    }
+
+    .menu-icon, .menu-text{
+        font-size: 8vw;
+    }
 }
 
 .welcome{
@@ -121,30 +158,30 @@ html, body {
 }
 
 .dash-section{
-    font-size: 40px;
-    margin-right: 10px;
+    font-size: 1.5vw;
+    margin-right: 3%;
     color: #fff;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 4%;
+    margin-top: 2vh;
 }
 
 .dash{
-    font-size: 22px;
+    font-size: 1.5vw;
     color: #fff;
     font-weight: 400;
 }
 
 .menu-icon{
-    font-size: 20px;
-    margin-right: 10px;
+    font-size: 1.2vw;
+    margin-right: 3%;
     color: #fff;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 4%;
+    margin-top: 2vh;
 }
 
 .menu-text{
-    font-size: 20px;
-    margin-right: 15px;
+    font-size: 1vw;
+    margin-right: 3%;
     color: #fff;
 }
 
